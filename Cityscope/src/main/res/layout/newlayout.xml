@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#98b7c0">
+
+
+
+
+
+
+
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:scaleType="fitCenter"-->
+            <!--android:layout_centerInParent="true"-->
+
+            <!--android:src="@drawable/back_plus_circle"-->
+            <!--android:visibility="gone" />-->
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <ImageView
+
+            android:id="@+id/back2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_flythings2"
+            android:scaleType="centerCrop"
+
+
+            >
+
+            <!--android:layout_width="340dp"-->
+            <!--android:layout_height="10dp"-->
+
+        </ImageView>
+
+    <ImageView
+
+        android:id="@+id/back1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/allcity2"
+        android:scaleType="centerCrop"
+
+
+
+        >
+
+        <!--android:layout_width="340dp"-->
+        <!--android:layout_height="10dp"-->
+
+    </ImageView>
+
+    </LinearLayout>
+
+    <!--<ImageView-->
+
+        <!--android:id="@+id/back3"-->
+        <!--app:layout_widthPercent="100%"-->
+        <!--android:src="@drawable/back_3"-->
+        <!--app:layout_marginTopPercent="70%"-->
+
+        <!-->-->
+
+        <!--&lt;!&ndash;android:layout_width="340dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="10dp"&ndash;&gt;-->
+
+    <!--</ImageView>-->
+
+
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="#a9d4cb">-->
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/back2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+
+
+        <!--android:layout_centerVertical="true"-->
+
+        <!--android:src="@drawable/back_2" />-->
+        <!--<ImageView-->
+            <!--android:id="@+id/back1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!-- -->
+
+
+            <!--android:src="@drawable/back_1"-->
+
+
+             <!--/>-->
+    <!--<ImageView-->
+        <!--android:id="@+id/back3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+
+
+
+
+        <!--android:src="@drawable/back_3"-->
+
+        <!--android:visibility="gone" />-->
+
+
+
+    <!--</LinearLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/backontop"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+
+
+
+
+            <!--android:src="@drawable/back_only_circle2"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:visibility="gone" />-->
+    <!--</RelativeLayout>-->
+
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/carview"
+            android:src="@drawable/car"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="355dp"
+            android:visibility="gone" />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/carview2"
+            android:src="@drawable/car3"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="355dp"
+            android:visibility="gone" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <include layout="@layout/lay"
+
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentBottom="true"
+
+
+                android:layout_marginBottom="-180dp"
+                android:layout_alignParentLeft="false"
+                android:id="@+id/includeb1"
+                android:layout_alignParentStart="false"
+                android:layout_toRightOf="@+id/includeb3" />
+
+            <include layout="@layout/lay"
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:id="@+id/includeb2"
+                android:layout_alignParentBottom="false"
+                android:layout_marginLeft="-20dp"
+                android:layout_centerVertical="true" />
+
+            <include layout="@layout/lay"
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/includeb4"
+                android:layout_alignParentBottom="true" />
+
+            <include layout="@layout/lay"
+
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/includeb3"
+                android:layout_toRightOf="@+id/includeb2" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:visibility="gone">
+
+
+
+
+
+            <include layout="@layout/lay"
+
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/includeb5"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="-80dp" />
+
+        <include layout="@layout/lay"
+
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/includeb6"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true" />
+
+
+
+        <include layout="@layout/lay"
+            android:id="@+id/incb3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-20dp" />
+
+        </RelativeLayout>
+
+
+        <!--<include layout="@layout/layback"-->
+            <!--android:id="@+id/incback"-->
+            <!--android:layout_width="135dp"-->
+            <!--android:layout_height="135dp"-->
+            <!--android:layout_centerInParent="true">-->
+
+        <!--</include>-->
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#be3a3a3a"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="0dp">
+        </RelativeLayout>
+    <!--android:background="#c83b3b3b"-->
+
+        <android.support.percent.PercentRelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#98dc2a">
+
+        <include layout="@layout/laycent"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:id="@+id/inc1"
+
+            >
+            <!--  220 220</include>-->
+
+        </include>
+
+
+        <include layout="@layout/laysmall"
+            android:id="@+id/inc2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+             />
+            <!--  220 220</include>-->
+
+        <include layout="@layout/laysmall2"
+            android:id="@+id/inc3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            />
+
+        <include layout="@layout/laysmall3"
+            android:id="@+id/inc4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            />
+
+        <include layout="@layout/laysmall4"
+            android:id="@+id/inc5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            />
+
+        <include layout="@layout/laysmall5"
+            android:id="@+id/inc6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            />
+
+        <include layout="@layout/laysmall6"
+            android:id="@+id/inc7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            />
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <!--///////////////////////////////////////////-->
+
+        <!--///////////////////////////////////////////-->
+
+
+        <RelativeLayout
+
+            android:id="@+id/shadow"
+            app:layout_widthPercent="90%"
+            app:layout_heightPercent="1.2%"
+            android:background="@drawable/frontside"
+            android:layout_below="@+id/toprelative"
+            android:layout_centerHorizontal="true">
+
+            <!--android:layout_width="340dp"-->
+            <!--android:layout_height="10dp"-->
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+        <!--android:layout_width="340dp"-->
+        <!--android:layout_height="10dp"-->
+
+
+        <RelativeLayout
+            android:id="@+id/toprelativeup"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="false"
+            android:background="#8ccb27">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/toprelativeupshadow"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="false"
+            android:background="@drawable/ceilingdown"
+            android:layout_below="@+id/toprelativeup"
+            android:backgroundTint="#689f38">
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/toprelativedownshadow"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+
+
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottomdown"
+
+        android:backgroundTint="#689f38">
+
+    </RelativeLayout>
+
+
+
+                <!-- 320 50-->
+        <RelativeLayout
+            android:id="@+id/toprelative"
+            app:layout_widthPercent="84.5%"
+            app:layout_heightPercent="7.3%"
+            android:background="#98dc2a"
+            android:layout_alignLeft="@+id/shadow">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/logocityscopetitleleft"
+
+
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="-2dp"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/cityscope_dash4"
+                android:layout_centerHorizontal="true"
+
+
+                >
+
+            </ImageView>
+
+            <Spinner
+
+                android:id="@+id/list2"
+
+                android:layout_width="160dp"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="false"
+                android:layout_marginLeft="250dp"
+                android:visibility="gone">
+
+            </Spinner>
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/threeline"
+
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:layout_marginRight="6sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gridcity2"
+
+
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/cityscope"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  -Cityscope-"
+                android:textColor="#3a3a3a"
+
+                android:layout_alignParentBottom="false"
+                android:layout_centerInParent="true"
+                android:visibility="invisible" />
+
+
+
+        </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeupright"
+        app:layout_widthPercent="5.5%"
+        app:layout_heightPercent="7.8%"
+        android:background="@drawable/rectanglesideup"
+        android:layout_toRightOf="@+id/toprelative"
+        android:layout_alignBottom="@+id/toprelative">
+    </RelativeLayout>
+    <!-- 20 50-->
+
+        <RelativeLayout
+            android:id="@+id/relativeuprightcorner"
+            app:layout_widthPercent="5.5%"
+            app:layout_heightPercent="1.2%"
+            android:background="@drawable/rightsideup"
+            android:layout_toRightOf="@+id/toprelative"
+            android:layout_below="@+id/toprelative">
+<!--20 10-->
+        </RelativeLayout>
+
+        <RelativeLayout
+        android:id="@+id/toprelativedown"
+        app:layout_widthPercent="83.7%"
+        app:layout_heightPercent="7.3%"
+        android:background="#98dc2a"
+        android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/frontsidedown">
+
+
+
+        <!--<ImageView-->
+        <!--android:layout_width="30sp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:src="@drawable/threeline"-->
+
+        <!--android:layout_alignParentLeft="false"-->
+        <!--android:layout_alignParentStart="false"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="false"-->
+        <!--android:layout_marginRight="6sp" />-->
+
+
+
+        <TextView
+            android:id="@+id/cityscopedown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="find out what&apos;s around you"
+            android:textColor="#3a3a3a"
+
+            android:layout_alignParentBottom="false"
+            android:layout_centerInParent="true"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativedownright"
+            app:layout_widthPercent="5.6%"
+            app:layout_heightPercent="7.3%"
+            android:background="@drawable/rectangleside"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/toprelativedown">
+
+
+
+            <!--<ImageView-->
+            <!--android:layout_width="30sp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:src="@drawable/threeline"-->
+
+            <!--android:layout_alignParentLeft="false"-->
+            <!--android:layout_alignParentStart="false"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentBottom="false"-->
+            <!--android:layout_marginRight="6sp" />-->
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativedownrightcorner"
+            app:layout_widthPercent="5.6%"
+            app:layout_heightPercent="1.2%"
+            android:background="@drawable/rightside"
+            android:layout_alignParentBottom="false"
+            android:layout_above="@+id/relativedownright"
+            android:layout_toRightOf="@+id/toprelativedown">
+
+
+
+            <!--<ImageView-->
+            <!--android:layout_width="30sp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:src="@drawable/threeline"-->
+
+            <!--android:layout_alignParentLeft="false"-->
+            <!--android:layout_alignParentStart="false"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentBottom="false"-->
+            <!--android:layout_marginRight="6sp" />-->
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frontsidedown"
+            app:layout_widthPercent="89.2%"
+            app:layout_heightPercent="1.2%"
+            android:background="@drawable/frontsidedown"
+            android:layout_above="@+id/toprelativedown"
+            android:layout_centerHorizontal="true">
+
+        </RelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end"
+
+        >
+        <ImageView
+            android:id="@+id/refreshRotate"
+            app:layout_widthPercent="10%"
+            app:layout_heightPercent="10%"
+            app:layout_marginRightPercent="5%"
+            app:layout_marginBottomPercent="9%"
+            android:src="@drawable/refresh3"
+
+             />
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end"
+
+        >
+        <ImageView
+            android:id="@+id/infoImage"
+            app:layout_widthPercent="10%"
+            app:layout_heightPercent="10%"
+            app:layout_marginRightPercent="85%"
+            app:layout_marginBottomPercent="9%"
+            android:src="@drawable/info3"
+
+             />
+
+    </android.support.percent.PercentRelativeLayout>
+
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativeWarn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<ImageView-->
+
+
+            <!--android:id="@+id/imageontop"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="2000px"-->
+            <!--android:background="@drawable/glitter10"-->
+            <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/cityscopewarning"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:src="@drawable/cityscope_dash_centered"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--/>-->
+
+
+
+
+    <!--<TextView-->
+
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/warning"-->
+        <!--android:text="Cityscope is only available for the city of Thessaloniki, Greece"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_above="@+id/cityscopewarning"-->
+        <!--android:typeface="serif"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="16sp" />-->
+    <!--<TextView-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="It will be soon available for your location"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_below="@+id/cityscopewarning"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:typeface="serif"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="16sp" />-->
+
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/relativeWarnDown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <ImageView
+
+
+            android:id="@+id/imageontopdown"
+            android:layout_width="match_parent"
+            android:layout_height="2000px"
+            android:background="@drawable/glitter10"
+            />
+
+        <ImageView
+            android:id="@+id/cityscopewarningdown"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/cityscope_dash_centered"
+            android:layout_centerInParent="true"
+            />
+
+
+
+
+        <TextView
+
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/warningdown"
+            android:text="Cityscope is only available for the city of Thessaloniki, Greece"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/cityscopewarningdown"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="It will be soon available for your location"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cityscopewarningdown"
+            android:layout_centerHorizontal="true"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeWarn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+
+
+            android:id="@+id/imageontop"
+            android:layout_width="match_parent"
+            android:layout_height="2000px"
+            android:background="@drawable/glitter10"
+            />
+
+        <ImageView
+            android:id="@+id/cityscopewarning"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/cityscope_dash_centered"
+            android:layout_centerInParent="true"
+            />
+
+
+
+
+        <TextView
+
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/warning"
+            android:text="Cityscope is only available for the city of Thessaloniki, Greece"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/cityscopewarning"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:visibility="gone" />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="It will be soon available for your location"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/cityscopewarning"
+            android:layout_centerHorizontal="true"
+            android:typeface="serif"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@+id/refreshIcon"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/refresh"
+            android:layout_below="@+id/cityscopewarning"
+            android:layout_centerHorizontal="true"
+            />
+        <ImageView
+            android:id="@+id/ontopcross"
+            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_below="@+id/cityscopewarning"
+            android:src="@drawable/signlogo2"
+
+            android:adjustViewBounds="true" />
+
+
+    </RelativeLayout>
+
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/ontop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+
+
+            android:id="@+id/imageontop0"
+            android:layout_width="match_parent"
+            android:layout_height="2000px"
+            android:background="@drawable/glitter10"
+             />
+
+        <ImageView
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#c2747474" />
+
+
+
+        <ImageView
+            android:id="@+id/ontopimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+
+            android:src="@drawable/logocityscopetitle"
+
+            android:layout_above="@+id/ontopcityscope"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-220dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/ontopcityscope"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+
+
+            android:layout_centerInParent="true"
+            android:src="@drawable/cityscope_dash_centered"
+
+            />
+        <ImageView
+            android:id="@+id/ontopcross0"
+            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_below="@+id/ontopcityscope"
+            android:src="@drawable/signlogo2"
+
+            android:adjustViewBounds="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ontopcityscope"
+            android:layout_centerHorizontal="true"
+            android:text="loading..."
+            android:layout_marginTop="-70dp"
+            android:textStyle="italic"
+            android:visibility="gone" />
+
+
+    </android.support.percent.PercentRelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.percent.PercentRelativeLayout>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- larger circle at the back -->
+
+
+    <item android:gravity="center">
+        <!--<shape-->
+
+
+        <shape
+            android:shape="oval"
+            >
+
+            <!--<solid-->
+            <!--android:color="#3a3a3a"/>-->
+
+            <!-- thicker outer boarder -->
+            <!--<stroke-->
+            <!--android:width="2dp"-->
+            <!--android:color="#c2c2c2"/>-->
+            <stroke
+                android:width="6dp"
+                android:color="#3a3a3a"/>
+
+
+
+            <!--android:color="#00e5ff"/>-->
+            <!--android:color="#c800bcd4"-->
+
+        </shape>
+
+
+
+
+    </item>
+
+
+
+
+</layer-list>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- larger circle at the back -->
+    <!--<item android:height="76dp" android:width="76dp" android:gravity="center">-->
+        <!--<shape-->
+            <!--android:shape="oval">-->
+
+            <!--<solid-->
+                <!--android:color="#c8d84315"/>-->
+
+            <!--&lt;!&ndash; thicker outer boarder &ndash;&gt;-->
+            <!--&lt;!&ndash;<stroke&ndash;&gt;-->
+                <!--&lt;!&ndash;android:width="2dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:color="#c2c2c2"/>&ndash;&gt;-->
+        <!--</shape>-->
+    <!--</item>-->
+
+
+    <!-- inner circle -->
+    <item android:gravity="center">
+        <shape
+            android:shape="oval"  >
+            <!--<solid-->
+                <!--android:color="#64424242"/>-->
+
+            <!--<stroke-->
+                <!--android:dashGap="350sp"-->
+                <!--android:dashWidth="180px"-->
+                <!--android:width="5dp"-->
+                <!--android:color="#00e5ff"/>-->
+
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#00464646"
+    android:showDividers="middle">
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_margin="1dp"
+        android:background="#64464646"
+        android:outlineProvider="none"
+        android:nestedScrollingEnabled="true"
+        android:showDividers="beginning|middle|end">
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Places around you:"
+                android:background="#464646" />
+
+            <Spinner
+                android:id="@+id/sppop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

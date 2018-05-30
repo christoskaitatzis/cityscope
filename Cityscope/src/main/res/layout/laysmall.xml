@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rel2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <!-->  100dp 100dp</View>-->
+
+
+    <!--<View-->
+        <!--android:id="@+id/vc1in"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:background="@drawable/green_circ"-->
+        <!--></View>-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vc1"
+        android:background="@drawable/circ_sm"
+        android:layout_centerInParent="true"
+        ></View>
+    <!-->  90dp 90dp</View>-->
+
+    <View
+        android:id="@+id/vc1inbensm"
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/beneath_sm"
+        ></View>
+    <!-->  66dp 66dp</View>-->
+
+    <View
+        android:id="@+id/vc1inben"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/beneath_out"
+        ></View>
+    <!-->  90dp 90dp</View>-->
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/vsm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:layout_centerInParent="true"
+
+
+        android:textColor="#eeeeee"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:shadowColor="#797979"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="4" />
+
+
+
+
+
+
+</RelativeLayout>

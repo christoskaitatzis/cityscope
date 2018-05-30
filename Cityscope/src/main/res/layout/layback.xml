@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relback"
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <View
+        android:id="@+id/viewback"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/innerc"
+        android:layout_centerInParent="true"
+
+        ></View>
+
+    <View
+        android:id="@+id/viewback2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/innerc2"
+        android:layout_centerInParent="true"
+        ></View>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

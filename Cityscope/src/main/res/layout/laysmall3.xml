@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rel4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--100 100-->
+    <!--<View-->
+        <!--android:id="@+id/vc3in"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+
+        <!--android:background="@drawable/orange_circ"-->
+
+        <!--android:layout_centerInParent="true"-->
+        <!--></View>-->
+
+
+    <!--android:background="@drawable/orange_circ"-->
+
+
+    <View
+        android:id="@+id/vc3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/circ_sm3"
+        android:layout_centerInParent="true"
+        ></View>
+    <!--layout_width="86dp"-->
+    <!--android:layout_height="86dp"-->
+
+    <View
+        android:id="@+id/vc3in"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/beneath_sm"
+        android:layout_centerInParent="true"
+        ></View>
+
+
+
+    <View
+        android:id="@+id/vcorangeinben"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/beneath_out"
+        ></View>
+<!--8686-->
+
+
+
+    <TextView
+        android:id="@+id/vsm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:layout_centerInParent="true"
+
+
+        android:textColor="#fafafa"
+        android:textStyle="bold"
+        android:textSize="11sp"
+        android:shadowColor="#797979"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="4" />
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rel1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--640640-->
+
+    <!--<View-->
+        <!--android:id="@+id/viewcentrect"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/circ0"-->
+        <!--></View>-->
+    <!--<View-->
+        <!--android:id="@+id/viewcent2"-->
+        <!--android:layout_width="137dp"-->
+        <!--android:layout_height="137dp"-->
+        <!--android:background="@drawable/circ0"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--></View>-->
+
+
+
+
+
+
+    <!--<View-->
+        <!--android:id="@+id/viewcent3semidown"-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="70dp"-->
+        <!--android:background="@drawable/semi_circdown"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignTop="@+id/v0"-->
+        <!--android:layout_marginTop="5dp"></View>-->
+
+
+
+    <!--<View-->
+        <!--android:id="@+id/viewcent3semi"-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:background="@drawable/semi_circ"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_above="@+id/viewcent3semidown"-->
+        <!--android:layout_marginBottom="-5dp"></View>-->
+
+    <!--<View-->
+    <!--android:id="@+id/viewcenternew"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@drawable/circle_center"-->
+    <!--android:layout_centerInParent="true"-->
+    <!-->-->
+        <!-- -->
+    <!--</View>-->
+
+
+    <!--<View-->
+        <!--android:id="@+id/viewcentline"-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="@drawable/line"-->
+        <!--android:layout_centerHorizontal="true"-->
+
+        <!--android:layout_above="@+id/viewcent3semidown"-->
+        <!--android:layout_marginBottom="-5dp"></View>-->
+
+    <View
+        android:id="@+id/viewcent3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@drawable/innerc"
+        android:layout_centerInParent="true"></View>
+    <!-- 140140-->
+
+    <!--<View-->
+        <!--android:id="@+id/viewcent4"-->
+        <!--android:layout_width="124dp"-->
+        <!--android:layout_height="124dp"-->
+        <!--android:background="@drawable/beneathcent"-->
+        <!--android:layout_centerInParent="true"></View>-->
+
+    <View
+        android:id="@+id/viewcent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/cityplanet4"
+        android:layout_centerInParent="true"></View>
+    <!-- 220220-->
+
+
+
+
+
+    <!--<View-->
+        <!--android:id="@+id/viewcentrec"-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:background="@drawable/rect"-->
+
+        <!--android:layout_below="@+id/v0"-->
+        <!--android:layout_alignParentBottom="false"-->
+        <!--android:layout_centerHorizontal="true"></View>-->
+    <!--<View-->
+        <!--android:id="@+id/viewcentout"-->
+        <!--android:layout_width="131dp"-->
+        <!--android:layout_height="131dp"-->
+        <!--android:background="@drawable/circout"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--></View>-->
+
+    <!--<View-->
+        <!--android:rotation="180"-->
+        <!--android:id="@+id/viewcent"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:background="@drawable/circ"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--></View>-->
+
+
+
+
+
+
+
+
+
+
+    <!--<View-->
+        <!--android:id="@+id/viewcentfr"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="@drawable/rectangle"-->
+        <!--android:layout_alignTop="@+id/v2"-->
+        <!--android:layout_alignParentRight="false"-->
+        <!--android:layout_alignParentTop="false"-->
+        <!--android:layout_alignParentBottom="false"-->
+        <!--android:layout_alignWithParentIfMissing="false"-->
+        <!--android:layout_centerHorizontal="true"></View>-->
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/v0"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="loading..."
+        android:shadowColor="#797979"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="4"
+
+        android:textColor="#eeeeee"
+        android:textStyle="bold"
+        android:textSize="18dp"
+
+        android:singleLine="true"
+        android:gravity="center"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+
+
+
+        android:textColor="#eeeeee"
+
+        android:textSize="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/v0"
+        android:layout_marginTop="-10dp"
+        android:textStyle="italic" />
+
+    <!--android:textColor="#c8cdefa6"-->
+
+
+
+
+
+
+</RelativeLayout>
